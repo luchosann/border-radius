@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 input {
     height: 300px;
@@ -15,6 +20,8 @@ body {
     height: 100px;
     width: 100%;
     
+    padding: 30px;
+
     display: flex;
     justify-content: center;
     
@@ -25,6 +32,7 @@ body {
 #container{
     display: grid;
     justify-content: center;
+
     margin-top: 5%;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -45,6 +53,11 @@ body {
     grid-template-rows: repeat(2, 1fr);
 }
 
+#mid {
+    margin: auto;
+}
+
 #result {
     text-align: center;
+    padding: 20px;
 }
