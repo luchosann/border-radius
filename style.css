@@ -1,0 +1,50 @@
+
+input {
+    height: 300px;
+    width: 200px;
+    -webkit-transform: rotate(-90deg); 
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #273248;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+    background-color: #2b374f;
+    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#container{
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#box {
+    width: 400px;
+    height: 400px;
+
+
+    border-radius: 50% 50% 50% 50%;
+    background-image: linear-gradient(120deg, #ffebd2 10%, #ffa364 40%, #fc7643 50%, #af4f41 70%, #273248 90%);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+#left ,#right {
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#result {
+    text-align: center;
+}
